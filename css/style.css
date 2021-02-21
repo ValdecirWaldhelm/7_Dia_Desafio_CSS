@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(90, 90, 90);
+}
+
+.loading{
+    display: flex;
+    justify-content: center;
+}
+
+.circle_1{
+    width: 50px;
+    height: 50px;
+    background-color:white;
+    border-radius: 4px;
+    animation: chase1 2s linear infinite;
+    position: absolute;
+    top: 320px;
+    animation-delay: 0.3s;
+
+}
+
+.circle_2{
+    width: 50px;
+    height: 50px;
+    background-color:red;
+    border-radius: 4px;
+    animation: chase2 3s linear infinite;
+    position: absolute;
+    top: 255px;
+    animation-delay: 0.5s;
+
+}
+
+.circle_3{
+    width: 50px;
+    height: 50px;
+    background-color:blue;
+    border-radius: 4px;
+    animation: chase3 2s linear infinite;
+    position: absolute;
+    top: 320px;
+    left: 540px;
+    animation-delay: 1.3s;
+
+}
+
+.circle_4{
+    width: 50px;
+    height: 50px;
+    background-color:gold;
+    border-radius: 4px;
+    animation: chase4 2s linear infinite;
+    position: absolute;
+    top: 255px;
+    left: 540px;
+    animation-delay: 1.1s;
+
+}
+
+.circle_5{
+    width: 50px;
+    height: 50px;
+    background-color:green;
+    border-radius: 4px;
+    animation: chase6 2s linear infinite;
+    position: absolute;
+    top: 320px;
+    left: 725px;
+    animation-delay: 1.3s;
+
+}
+
+.circle_6{
+    width: 50px;
+    height: 50px;
+    background-color:orange;
+    border-radius: 4px;
+    animation: chase5 2s linear infinite;
+    position: absolute;
+    top: 255px;
+    left: 725px;
+    animation-delay: 1.5s;
+
+}
+
+.circle_7{
+    width: 50px;
+    height: 50px;
+    background-color:aqua;
+    border-radius: 4px;
+    animation: chase7 2s linear infinite;
+    position: absolute;
+    top: 385px;
+    left: 540px;
+    animation-delay: 1.7s;
+
+}
+
+.circle_8{
+    width: 50px;
+    height: 50px;
+    background-color:chartreuse;
+    border-radius: 4px;
+    animation: chase8 2s linear infinite;
+    position: absolute;
+    top: 385px;
+    left: 725px;
+    animation-delay: 2s;
+
+}
+
+
+@keyframes chase1{
+    0%{
+        left: 635px;
+        transform: rotate(150deg);
+    }
+    25%{
+        left: 600px;
+        transform: rotate(0deg);
+    }
+    40%{
+        left: 600px;
+        top: 320px;
+        transform: rotate(0deg);
+    }
+    55%{
+        left: 600px;
+        top: 420px;
+        transform: rotate(150deg);
+    }
+    70%{
+        left: 635px;
+        top: 420px;
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes chase2{
+    0%{
+        left: 635px;
+        transform: rotate(150deg);
+    }
+    25%{
+        left: 600px;
+        transform: rotate(0deg);
+    }
+    40%{
+        left: 600px;
+        top: 255px;
+        transform: rotate(0deg);
+        
+    }
+    55%{
+        left: 600px;
+        top: 180px; 
+        transform: rotate(150deg);
+        
+    }
+    70%{
+        left: 635px;
+        top: 180px; 
+        transform: rotate(0deg);
+       
+    } 
+}
+
+@keyframes chase3{
+    0%{
+        top: 320px;
+        left: 540px;
+        background-color:blue;
+       
+    }
+    10%{
+        left: 600px;
+    }
+    40%{
+        left: 540px;
+    
+    }
+    55%{
+        left: 450px;
+    }
+    70%{
+        left: 540px;
+        background-color: rgb(95, 3, 3);
+        
+    } 
+}
+
+@keyframes chase4{
+    0%{
+        top: 255px;
+        left: 540px;
+        background-color:gold;
+        
+    }
+    25%{
+        left: 440px;
+    }
+    40%{
+        left: 540px;
+        top: 255px;
+    }
+    55%{
+        left: 540px;
+        top: 180px;
+    }
+    70%{
+        left: 540px;
+        top: 180px; 
+        background-color:black;
+    } 
+}
+
+
+@keyframes chase5{
+    0%{
+        top: 255px;
+        left: 725px;
+        background-color:orange;
+        
+    }
+    25%{
+        left: 820px;
+    }
+    40%{
+        left: 725px;
+        top: 255px;
+    }
+    55%{
+        left: 725px;
+        top: 180px;
+    }
+    70%{
+        left: 725px;
+        top: 255px; 
+        background-color:rgb(0, 0, 139);
+    } 
+}
+
+@keyframes chase6{
+    0%{
+        top: 320px;
+        left: 725px;
+        background-color:green;
+       
+    }
+    10%{
+        left: 650px;
+    }
+    40%{
+        left: 725px;
+    
+    }
+    55%{
+        left: 820px;
+    }
+    70%{
+        left: 725px;
+        background-color: chocolate;
+        
+    } 
+}
+
+@keyframes chase7{
+    0%{
+        top: 385px;
+        left: 540px;
+        background-color:aqua;
+        
+    }
+    25%{
+        top: 480px;
+    }
+    40%{
+        left: 540px;
+        top: 385px;
+    }
+    55%{
+        left: 440px;
+        top: 385px;
+    }
+    70%{
+        left: 540px;
+        top: 385px; 
+        background-color: gold;
+       
+    } 
+}
+
+
+@keyframes chase8{
+    0%{
+        top: 385px;
+        left: 725px;
+        background-color:chartreuse;
+        
+    }
+    25%{
+        left: 650px;
+        top: 385px;
+    }
+    40%{
+        left: 650px;
+        top: 420px;
+    }
+    55%{
+        left: 725px;
+        top: 420px;
+    }
+    70%{
+        left: 725px;
+        top: 385px; 
+        background-color: purple;
+        
+    } 
+}
+
+
+
+/* @keyframes chase
+{
+    0% {top: 0; left: 0;}
+
+    12.5% { top: 0; left: 50%;}
+
+    25% { top: 0; left: 50%;}
+
+    37.5% { top: 50%; left: 50%;}
+
+    50% { top: 50%; left: 50%;}
+
+    62.5% { top: 50% ; left: 0;}
+
+    75% { top: 50% ; left: 0;}
+
+    82.5% { top: 0; left: 0;}
+
+    100% { top: 0; left: 0;}
+} */
